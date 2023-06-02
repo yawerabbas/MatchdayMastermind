@@ -1,11 +1,45 @@
 # MatchdayMastermind
 
-Matchday Mastermind is a powerful tool designed to assist in selecting the best team for high-stakes football matches, with a specific focus on events like the Champions League Final. By leveraging player performance data, team strategies, and past records, Matchday Mastermind provides valuable insights and recommendations for building an optimal team lineup.
+This project evaluates the performance of two football teams, Manchester City and Inter Milan, based on player performance, team strategies, and past records. It utilizes web scraping techniques to gather data from various sources and applies evaluation algorithms to determine the better team.
 
-This repository contains the code and algorithms necessary to fetch player performance data from reputable sources, analyze the data to evaluate player effectiveness, and implement various strategies to determine the best team composition. It utilizes web scraping techniques and data processing methodologies to extract relevant information from websites such as "https://fbref.com/".
+## Features
 
-With Matchday Mastermind, users can customize the selection process based on their own preferences and criteria. The code is designed to be modular and extensible, making it easy for developers to contribute additional features or integrate the project into their own applications.
+- Scrape player performance data from [fbref.com](https://fbref.com/) to evaluate individual player contributions.
+- Evaluate team strategies based on formation and playing style.
+- Analyze past records including wins, draws, and losses to assess team performance.
+- Consider head-to-head results for a comprehensive evaluation.
+- Visualize data using bar plots and football field diagrams.
 
-By sharing Matchday Mastermind on GitHub, our goal is to provide a valuable resource for football enthusiasts, coaches, and analysts who seek data-driven insights to optimize team selection and enhance their chances of success in critical matches.
+## Setup
 
-Get ready to make informed decisions and become a true matchday mastermind with Matchday Mastermind.
+1. Clone the repository:
+
+git clone https://github.com/your-username/football-team-evaluation.git
+
+2. Install the required libraries:
+
+pip install requests
+pip install beautifulsoup4
+pip install pandas
+pip install seaborn
+pip install matplotlib
+
+
+3. Run the main Python script:
+
+python prediction.py
+
+
+## Results
+
+The evaluation algorithm assigns scores to each team based on player performance, team strategies, and past records. The team with the higher score is considered the better team. The final prediction will be displayed in the console.
+
+## Credits
+
+- [fbref.com](https://fbref.com/) - Data source for player performance and head-to-head results.
+- [uefa.com](https://www.uefa.com/) - Data source for head-to-head results.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
