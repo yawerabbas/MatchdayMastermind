@@ -14,7 +14,7 @@ This project evaluates the performance of two football teams, Manchester City an
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/football-team-evaluation.git
+git clone https://github.com/yawerabbas/MatchdayMastermind.git
 
 2. Install the required libraries:
 
