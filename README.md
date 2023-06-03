@@ -37,7 +37,7 @@ The evaluation algorithm assigns scores to each team based on player performance
 ## Credits
 
 - [fbref.com](https://fbref.com/) - Data source for player performance and head-to-head results.
-- [uefa.com](https://www.uefa.com/) - Data source for head-to-head results.
+
 
 ## License
 
